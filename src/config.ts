@@ -1,33 +1,65 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "沐竹雨",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "沐竹雨博客",
+        url: "https://muzhuyu.cn",
+        icon: "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F22ed4952-2974-42d8-a1ab-ed1deb18c755%2Fc2246c99-2215-4a63-9519-9cb1ed7d3b91%2Ffavicon.ico?id=8aab51df-59fd-41ff-b27e-c172c7561629&table=collection&spaceId=22ed4952-2974-42d8-a1ab-ed1deb18c755&userId=63c7d733-8868-40a5-9230-9b307e11009d&cache=v2",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "沐竹雨的学习记录",
+        description: "记录沐竹雨的学习生活",
+        url: "https://study.muzhuyu.cn/",
         icon: "",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "思维导图",
+        description: "自建思维导图工具",
+        url: "https://mindmap.muzhuyu.cn/#/",
+        icon: "",
+      },
+      {
+        title: "微信编辑器",
+        description: "自建markdown编辑工具",
+        url: "https://md.muzhuyu.cn/",
         icon: "",
       },
     ],
   },
   {
-    title: "示例分类2",
+    title: "陕西北斗",
+    sites: [
+      {
+        title: "陕西省地质灾害平台",
+        url: "http://124.22.1.13:8115/#/",
+        icon: "",
+        color: "#0171CD",
+      },
+      {
+        title: "陕西省地质灾害物联网平台",
+        url: "http://124.22.1.13:3000/#/",
+        icon: "",
+        color: "#0171CD",
+      },
   },
   {
-    title: "示例分类3",
+    title: "常用链接",
+     sites: [
+      {
+        title: "阿里云",
+        url: "https://www.aliyun.com/",
+        icon: "",
+        color: "#0171CD",
+      },
+      {
+        title: "陕西省地质灾害物联网平台",
+        url: "http://124.22.1.13:3000/#/",
+        icon: "",
+        color: "#0171CD",
+      },
   },
   {
     title: "示例分类4",
@@ -39,10 +71,10 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "友情链接",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        title: "沐竹雨导航",
+        description: "沐竹雨的导航页面",
+        url: "https://dh.muzhuyu.cn",
+        icon: "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F22ed4952-2974-42d8-a1ab-ed1deb18c755%2Fc2246c99-2215-4a63-9519-9cb1ed7d3b91%2Ffavicon.ico?id=8aab51df-59fd-41ff-b27e-c172c7561629&table=collection&spaceId=22ed4952-2974-42d8-a1ab-ed1deb18c755&userId=63c7d733-8868-40a5-9230-9b307e11009d&cache=v2",
       },
     ],
   },
@@ -104,9 +136,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "沐竹雨的导航页",
+    keywords: "沐竹雨,导航",
+    description: "这是沐竹雨的导航页面.",
   },
 };
 
